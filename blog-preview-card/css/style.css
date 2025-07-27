@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Figtree", sans-serif;
+  font-size: 1rem;
+  background: #e6c64d;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+h1,
+p {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+.container {
+  background: #ffffff;
+  border-radius: 20px;
+  border: 2px solid #121212;
+  box-shadow: 10px 10px 0px #121212;
+}
+.card-header {
+  display: grid;
+  margin: 20px 16px 20px 20px;
+  justify-content: center;
+  width: max-content;
+}
+.card-img {
+  margin-bottom: 24px;
+}
+.card-header img {
+  border-radius: 10px;
+}
+.status {
+  background: #e6c64d;
+  width: max-content;
+  border-radius: 4px;
+  padding: 6px 10px;
+  font-size: 1rem;
+  font-weight: 800;
+  margin-bottom: 16px;
+}
+.date {
+  margin-bottom: 20px;
+  color: #121212;
+}
+.card-header h1 {
+  font-size: 1.5rem;
+}
+.card-header a {
+  color: #121212;
+}
+.card-header a:hover {
+  color: #e6c64d;
+}
+.card-details {
+  color: #6b6b6b;
+  margin-left: 20px;
+  font-weight: 500;
+  line-height: 1.4;
+  max-width: 35ch;
+}
+.user-information a {
+  display: flex;
+  align-items: center;
+  margin: 20px 0 20px 20px;
+}
+.user-img {
+  width: 32px;
+}
+.user-name {
+  color: #121212;
+  font-weight: 800;
+  margin-left: 10px;
+}
+@media (max-width: 380px) {
+  .card-img {
+    width: 300px;
+  }
+  .card-header h1 {
+    font-size: 1.25rem;
+  }
+  .card-details {
+    font-size: 0.875rem;
+  }
+}
