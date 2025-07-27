@@ -11,7 +11,7 @@ Aqui você vai encontrar projetos organizados em pastas separadas, cada uma cont
 * [Social Links Profile](./social-links-profile/)  
   `HTML` e `CSS`
 
-* [Blog Preview Card/](./blog-preview-card/)  
+* [Blog Preview Card](./blog-preview-card/)  
 `HTML` e `CSS`
 
 
