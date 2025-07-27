@@ -3,7 +3,7 @@
 Olá 👋  
 Obrigada por conferir essa solução de desafio!
 
-<img src="preview-card.png.png" alt="preview-desafio" height="400" />
+<img src="preview-card.png" alt="preview-desafio" height="400" />
 
 👉 Visualize clicando [aqui](https://roberta-silva.github.io/frontend-mentor-desafios/blog-preview-card/).
 
