@@ -1,0 +1,123 @@
+@import "./colors.css";
+
+body,
+h1,
+h2,
+p,
+ul,
+ol,
+li {
+  margin: 0px;
+  padding: 0px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 10px;
+}
+body {
+  background: var(--color-1);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1rem;
+  box-sizing: border-box;
+}
+.container {
+  max-width: 640px;
+  margin: 60px;
+  background: var(--color-0);
+  padding: 40px;
+  border-radius: 20px;
+}
+h1 {
+  padding: 20px 0px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: var(--color-4);
+}
+.subtitle {
+  padding: 20px 0px;
+  font-family: "Young Serif", serif;
+  font-weight: 400;
+  font-size: 2.25rem;
+  color: var(--color-5);
+}
+.preparation {
+  padding: 20px;
+  background: var(--color-7);
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+.preparation-title {
+  font-family: "Outfit", serif;
+  font-weight: 700;
+  color: var(--color-6);
+}
+.preparation li::marker {
+  color: var(--color-6);
+}
+p,
+li {
+  font-family: "Outfit", serif;
+  color: var(--color-3);
+}
+p {
+  margin-bottom: 20px;
+}
+ul,
+ol {
+  margin-left: 40px;
+}
+li {
+  padding: 0px 0px 10px 20px;
+}
+.ingredients li:last-child,
+.instructions li:last-child {
+  margin-bottom: 20px;
+}
+li span {
+  font-weight: 600;
+}
+ul li::marker,
+ol li::marker {
+  color: var(--color-5);
+  font-weight: 600;
+}
+.nutrition ul {
+  list-style: none;
+  margin: 0px;
+}
+.nutrition li {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 10px 40px;
+}
+.nutrition li span {
+  color: var(--color-5);
+}
+.nutrition li + li,
+section:nth-last-of-type(-n + 2) {
+  border-top: 1px solid var(--color-2);
+}
+
+@media (max-width: 400px) {
+  .container {
+    margin: 0px;
+    border-radius: 0px;
+    padding: 0px;
+  }
+  img {
+    border-radius: 0px;
+  }
+  h1 {
+    padding: 10px 0px;
+
+    font-size: 2rem;
+  }
+  section {
+    padding: 30px;
+  }
+}
