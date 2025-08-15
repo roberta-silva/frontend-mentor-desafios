@@ -3,7 +3,7 @@
 Olá 👋  
 Obrigada por conferir essa solução de desafio!
 
-<img src="preview.png.png" alt="preview-desafio" height="400" />
+<img src="preview.png" alt="preview-desafio" height="400" />
 
 👉 Visualize clicando [aqui](https://roberta-silva.github.io/frontend-mentor-desafios/recipe-page/).
 
@@ -18,3 +18,4 @@ Página de receita simples com o objeto de praticar `HTML` e `CSS`.
 - Responsividade com media queries
 
 ---
+
