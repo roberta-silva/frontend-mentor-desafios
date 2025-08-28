@@ -1,0 +1,98 @@
+body,
+h1,
+dl,
+dt,
+dd {
+  margin: 0;
+}
+dt,
+dd {
+  max-width: 540px;
+  padding: 20px 0px;
+}
+body {
+  font-family: "Work Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: url("../img/background-pattern-desktop.svg") no-repeat,
+    linear-gradient(hsl(292, 42%, 14%) 320px, hsl(275, 100%, 97%) 0px);
+}
+main {
+  padding: 40px;
+  border-radius: 10px;
+  background: #fff;
+  min-width: 580px;
+}
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title-img {
+  display: flex;
+  margin-right: 20px;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+dt {
+  font-size: 1rem;
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+  position: relative;
+  padding-right: 40px;
+}
+dt:hover {
+  color: hsl(281, 83%, 54%);
+  cursor: pointer;
+}
+dd {
+  font-size: 1rem;
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+}
+.js .js-accordion dd {
+  display: none;
+}
+.js-accordion dd.ativo {
+  display: block;
+}
+dt:not(:first-of-type) {
+  border-top: 1px solid hsl(275, 100%, 97%);
+}
+dt::after {
+  content: "";
+  position: absolute;
+  display: inline-block;
+  background: url("../img/icon-plus.svg") no-repeat center;
+  width: 25px;
+  height: 25px;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.js-accordion dt.ativo::after {
+  background: url("../img/icon-minus.svg") no-repeat center;
+}
+@media (max-width: 700px) {
+  main {
+    min-width: initial;
+    margin: 0px 20px;
+  }
+}
+@media (max-width: 375px) {
+  body {
+    background: url("../img/background-pattern-mobile.svg") no-repeat,
+      linear-gradient(hsl(292, 42%, 14%) 232px, hsl(275, 100%, 97%) 0px);
+  }
+  main {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+}
