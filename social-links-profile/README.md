@@ -1,27 +1,30 @@
-# Social Links Profile
+Olá 👋 Obrigada por conferir a solução para esse desafio!
 
-Olá 👋  
-Obrigada por conferir essa solução de desafio!
+# Social Links Profile ✨
+
+Esta página de perfil exibe links sociais de forma organizada e acessível, combinando **HTML semântico**, **CSS moderno** e **design responsivo**.
 
 <img src="preview.png" alt="preview-desafio" height="400" />
 
-👉 Visualize clicando [aqui](https://roberta-silva.github.io/frontend-mentor-desafios/social-links-profile/).
+### 👉 [Visualize minha solução aqui](https://roberta-silva.github.io/frontend-mentor-desafios/social-links-profile/) & [Visualize o desafio original aqui](https://www.frontendmentor.io/challenges/social-links-profile-UG32l9m6dQ)!
 
-## Sobre o Desafio 🎯
+## Objetivo do Projeto 📌
 
-O objetivo foi construir uma página de perfil com links e deixá-la o mais próxima possível do layout proposto.
+- Replicar fielmente o design proposto pelo desafio, mantendo a estética e a organização visual sugeridas.
+- Praticar **HTML semântico** e **CSS responsivo**, garantindo boa experiência em diferentes dispositivos.
+- Priorizar **acessibilidade**, clareza de conteúdo e usabilidade.
 
-## Os usuários devem ser capazes de:
+## Funcionalidades 🚀
 
-- Visualizar corretamente a interface em diferentes tamanhos de tela (mobile, tablet e desktop)
-- Ver efeitos de **hover** ao passar o mouse nos botões sociais
-- Visualizar a página com design limpo, centralizado e responsivo
+- Layout **responsivo**, adaptando-se a telas de desktop, tablet e mobile.
+- Uso de **HTML semântico**, melhorando a estrutura do código e SEO.
+- **Estilização moderna** com CSS, incluindo cores, tipografia e espaçamento consistentes.
+- Efeitos com **:hover**.
 
-## Tecnologias e Conceitos Utilizados
+## Tecnologias Utilizadas
 
-- HTML5
-- CSS3
-- Responsividade com media queries
-- Efeitos com `:hover`
+`HTML5` · `CSS3` · `Design responsivo`
 
----
+## Resultado
+
+O projeto entrega uma **página de perfil limpa, acessível e funcional**, demonstrando boas práticas de desenvolvimento Front-end e atenção a detalhes de design e usabilidade.
