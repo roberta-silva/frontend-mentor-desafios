@@ -23,12 +23,13 @@ main {
   border-radius: 10px;
   background: #fff;
   width: 520px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
 }
 /* titulo */
 .title {
   display: flex;
   align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 12px;
 }
 .title-img {
   display: flex;
