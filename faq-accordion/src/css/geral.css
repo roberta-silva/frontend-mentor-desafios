@@ -1,0 +1,54 @@
+body,
+h1,
+dl,
+dt,
+dd {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Work Sans", sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background:
+    url("../img/background-pattern-desktop.svg") no-repeat,
+    linear-gradient(hsl(292, 42%, 14%) 320px, hsl(275, 100%, 97%) 0px);
+}
+main {
+  margin: 0px 20px;
+  padding: 40px;
+  border-radius: 10px;
+  background: #fff;
+  width: 460px;
+}
+/* titulo */
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+.title-img {
+  display: flex;
+  margin-right: 20px;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+  color: hsl(292, 42%, 14%);
+}
+@media (max-width: 375px) {
+  body {
+    background:
+      url("../img/background-pattern-mobile.svg") no-repeat,
+      linear-gradient(hsl(292, 42%, 14%) 232px, hsl(275, 100%, 97%) 0px);
+  }
+  main {
+    padding: 30px;
+  }
+  h1 {
+    font-size: 2.25rem;
+  }
+}

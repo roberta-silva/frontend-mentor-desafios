@@ -1,0 +1,34 @@
+dt {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 1rem;
+  color: hsl(292, 42%, 14%);
+  font-weight: 600;
+  padding-top: 20px;
+}
+dd {
+  font-size: 0.875rem;
+  color: hsl(292, 16%, 49%);
+  font-weight: 400;
+}
+dt:not(:last-of-type),
+dd:not(:last-of-type) {
+  padding-bottom: 20px;
+}
+dt:not(:first-of-type) {
+  border-top: 1px solid hsl(275, 100%, 97%);
+}
+dt.ativo .accordion-icon {
+  content: url("../img/icon-minus.svg");
+}
+.js .js-accordion dd {
+  display: none;
+}
+.js-accordion dd.ativo {
+  display: block;
+}
+dt:hover {
+  color: hsl(281, 83%, 54%);
+  cursor: pointer;
+}
