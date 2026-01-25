@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Results Summary Component é uma página de demonstração que apresenta um resumo visual de resultados, com layout moderno, responsivo e foco em boas práticas de HTML e CSS.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+  <link rel="preload" href="./src/css/style.css" as="style">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <title>Results Summary Component</title>
+</head>
+
+<body>
+  <main>
+    <section class="result">
+      <h1>Your Result</h1>
+      <div class="score">
+        <span class="achieved-score">76</span>
+        <span class="max-score">of 100</span>
+      </div>
+      <span class="rating">Great</span>
+      <p class="feedback">You scored higher than 65% of the people who have taken these tests.</p>
+    </section>
+
+    <section class="summary">
+      <h2>Summary</h2>
+      <ul>
+        <li class="reaction"><span class="category">reaction</span>
+          <span class="score">
+            <span class="achieved-score">80</span> / 100</span>
+        </li>
+
+        <li class="memory"><span class="category">memory</span>
+          <span class="score">
+            <span class="achieved-score">92</span> / 100</span>
+        </li>
+
+        <li class="verbal"><span class="category">verbal</span>
+          <span class="score">
+            <span class="achieved-score">61</span> / 100</span>
+        </li>
+
+        <li class="visual"><span class="category">visual</span>
+          <span class="score">
+            <span class="achieved-score">73</span> / 100</span>
+        </li>
+      </ul>
+
+      <button type="button">Continue</button>
+    </section>
+  </main>
+</body>
+
+</html>
