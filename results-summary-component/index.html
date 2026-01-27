@@ -17,53 +17,56 @@
   <main>
     <div class="container">
       <section class="result">
-        <h1>Your Result</h1>
-        <div class="score">
-          <span class="achieved-score">76</span>
-          <span class="max-score">of 100</span>
+
+        <h1 class="result__title">Your Result</h1>
+        <div class="result__score">
+          <span class="result__score-achieved">76</span>
+          <span class="result__score-max">of 100</span>
         </div>
-        <div class="feedback">
-          <span class="feedback-rating">Great</span>
-          <p class="feedback-text">You scored higher than 65% of the people who have taken these tests.</p>
+
+        <div class="result__feedback">
+          <span class="result__feedback-rating">Great</span>
+          <p class="result__feedback-text">You scored higher than 65% of the people who have taken these tests.</p>
         </div>
       </section>
 
       <section class="summary">
-        <h2>Summary</h2>
-        <ul>
-          <li class="reaction">
-            <span class="category"><img src="./src/img/icon-reaction.svg" alt="">Reaction</span>
-            <span class="score">
-              <span class="achieved-score">80</span>
-              <span class="max-score">/ 100</span>
+        <h2 class="summary__title">Summary</h2>
+        <ul class="summary__list">
+          <li class="summary__item summary__item--reaction">
+            <span class="summary__category summary__category--reaction"><img class="summary__icon" src="./src/img/icon-reaction.svg" alt="">Reaction</span>
+            <span class="summary__score">
+              <span class="summary__score-achieved">80</span>
+              <span class="summary__score-max">/ 100</span>
             </span>
           </li>
 
-          <li class="memory">
-            <span class="category"><img src="./src/img/icon-memory.svg" alt="">Memory</span>
-            <span class="score">
-              <span class="achieved-score">92</span>
-              <span class="max-score"> / 100</span>
+          <li class="summary__item summary__item--memory">
+            <span class="summary__category summary__category--memory"><img class="summary__icon" src="./src/img/icon-memory.svg" alt="">Memory</span>
+            <span class="summary__score">
+              <span class="summary__score-achieved">92</span>
+              <span class="summary__score-max"> / 100</span>
             </span>
           </li>
 
-          <li class="verbal">
-            <span class="category"><img src="./src/img/icon-verbal.svg" alt="">Verbal</span>
-            <span class="score">
-              <span class="achieved-score">61</span>
-              <span class="max-score"> / 100</span>
+          <li class="summary__item summary__item--verbal">
+            <span class="summary__category summary__category--verbal"><img class="summary__icon" src="./src/img/icon-verbal.svg" alt="">Verbal</span>
+            <span class="summary__score">
+              <span class="summary__score-achieved">61</span>
+              <span class="summary__score-max"> / 100</span>
             </span>
           </li>
 
-          <li class="visual"><span class="category"><img src="./src/img/icon-visual.svg" alt="">Visual</span>
-            <span class="score">
-              <span class="achieved-score">73</span>
-              <span class="max-score"> / 100</span>
+          <li class="summary__item summary__item--visual">
+            <span class="summary__category summary__category--visual"><img class="summary__icon" src="./src/img/icon-visual.svg" alt="">Visual</span>
+            <span class="summary__score">
+              <span class="summary__score-achieved">73</span>
+              <span class="summary__score-max"> / 100</span>
             </span>
           </li>
         </ul>
 
-        <button class="btn" type="button">Continue</button>
+        <button class="summary__button" type="button">Continue</button>
       </section>
     </div>
   </main>
