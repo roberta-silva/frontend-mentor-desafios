@@ -11,6 +11,10 @@ Cada projeto está organizado em sua própria pasta e foi desenvolvido seguindo 
   `HTML` · `CSS` · `JavaScript`  
   Página de FAQ com **accordion interativo**, projetada para **exercitar manipulação de DOM**, criar **interfaces responsivas** e organizar conteúdos extensos de forma eficiente e intuitiva.
 
+- **[Results Summary Component](./results-summary-component/)**  
+  `HTML` · `CSS`  
+  Componente de **resumo de resultados** desenvolvido com **HTML semântico e CSS**, utilizando Flexbox, layout responsivo e efeitos de `:hover`, com foco na organização visual das informações e boa experiência do usuário em diferentes dispositivos.
+
 - **[Social Links Profile](./social-links-profile/)**  
   `HTML` · `CSS`  
   Página de perfil com links sociais, construída com **HTML semântico e CSS responsivo**, priorizando **acessibilidade, clareza na organização do conteúdo** e design limpo e centralizado.
